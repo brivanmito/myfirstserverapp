@@ -4,3 +4,91 @@
 *:after {
   box-sizing: border-box;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+}
+/* Its the body of the page*/
+#wrapper {
+  background-color: white;
+  max-width: 100%;
+}
+
+/* Css for the navigation bar */
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  background-color: black;
+}
+nav li {
+  color: aliceblue;
+  display: flex;
+  padding: 1rem;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Css for the top header */
+#top-header {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#top-header a{
+  text-decoration: none;
+  color: black;
+}
+
+.siteName a{
+  font-size: 2rem;
+  font-weight: bold;
+}
+#tools {
+  text-align: right;
+}
+
+/* Css hero image section */
+/* Hero Section */
+#hero {
+  width: 100%;
+/* yyyy */
+  position: relative;
+}
+.hero-picture {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-picture img{
+  width: 50%;
+  padding: 5% 0;
+}
+#call-to-action {
+  position: absolute;
+  padding: 15px;
+  width: 200px;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+h1{
+  padding: 15px;
+}
+#call-to-action a{
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 10px;
+  color: whitesmoke;
+  background-color: blue;
+  border-radius: 1rem;
+}
+#call-to-action p{
+  overflow-wrap: break-word;
+}
