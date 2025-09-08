@@ -79,6 +79,7 @@ nav {
 
 picture img {
   width: 100%;
+  height: auto;
 }
 
 /* Css for hero-msg */
@@ -98,6 +99,18 @@ picture img {
   z-index: 1;
   margin-left: 5%;
   padding: 5% 0;
+}
+#hero-section picture {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#hero-section img {
+  width: 70%;
+  height: auto;
+
 }
 
 #hero-msg a {
