@@ -9,7 +9,12 @@
   margin: 0;
   padding: 0;
 }
-
+body {
+  font-family: 'Alata', sans-serif;
+}
+h1, h2, h3{
+  font-family: 'EB Garamond', serif;
+}
 /* Css for header */
 #top-header {
   width: 100%;
