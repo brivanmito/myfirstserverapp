@@ -37,7 +37,7 @@ h1, h2, h3{
 .siteName a,
 #tools a {
   text-decoration: none;
-  color: #fe7f2d;
+  color: #14213d;
 }
 
 #tools a {
@@ -128,7 +128,7 @@ picture img {
   width: 80%;
   height: 300px;
   margin: 5% auto;
-  padding: 5%;
+  padding: 10%;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
